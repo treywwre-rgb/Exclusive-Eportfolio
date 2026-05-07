@@ -210,12 +210,19 @@ PROJECTS
     margin-bottom: 60px;
 }
 
+.project__list {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
 .project__img {
     width: 100%;
 
 }
 
 .project__wrapper {
+    height:600px;
     position: relative;
     border-radius: 20px;
     box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
@@ -254,7 +261,8 @@ PROJECTS
     width: 100%;
     height: 100%;
     background-color: #1c1d25;
-    opacity: 0.7;
+    opacity: 0;
+    transition: all 450ms ease;
 }  
 
 .project__description--title {

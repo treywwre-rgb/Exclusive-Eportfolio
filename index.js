@@ -5,7 +5,7 @@ function contact(event) {
     loading.classList += " modal__overlay--visible";
     emailjs
         .sendForm(
-            'contact_service',
+            'service_v0mixci',
             'template_7b9yi1u',
             event.target,
             'MkR-BwDxaMGsLddrN'
